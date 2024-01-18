@@ -10,5 +10,9 @@ public class Book {
     @Id
     private String id;
     private String isbn;
+    private String author;
+    private double price;
+    private String title;
+
 
 }

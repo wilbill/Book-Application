@@ -6,4 +6,7 @@ import lombok.Data;
 public class CreateBookRequest {
     private Long id;
     private String isbn;
+    private String author;
+    private double price;
+    private String title;
 }
